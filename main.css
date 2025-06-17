@@ -1,0 +1,187 @@
+button {
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 999px; 
+    cursor:auto;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin: 10px 0;
+    opacity: 0.5; 
+    transition: opacity 0.9s ease; 
+    transition: transform 0.8s ease, background-color 0.3s ease;
+}
+
+button:hover{
+    opacity: 1;
+    transform: scale(0.9);
+}
+
+.botao-positivo {
+    background-color: #28a745; 
+}
+
+.botao-negativo {
+    background-color: #dc3545; 
+}
+
+ul li {
+    font-weight: bold;
+    margin: 15px 0;
+    list-style-type: none; 
+}
+
+form input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 200px;
+    margin-top: 5px;
+}
+
+.textinhun {
+    border: 2px;
+    color:black;
+    font-size:30px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin: 20px auto;
+    font-size: 10px;
+}
+
+.opcao {
+    display: inline-flex;
+    align-items: center;
+    background-color: #28a745;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 999px;
+    margin-right: 10px;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+.opcao:hover {
+    opacity: 1;
+}
+
+.opcao input {
+    margin-right: 5px;
+}
+
+.opcao2 {
+    display: inline-flex;
+    align-items: center;
+    background-color: #b31a1a;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 999px;
+    margin-right: 10px;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: opacity 0.9s ease;
+}
+
+.opcao2:hover {
+    opacity: 1;
+}
+
+.opcao2 input {
+    margin-right: 5px;
+}
+
+body {
+    text-align:center;
+    background-image: url('../IMAGENS/9k.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Impede rolagem lateral */
+}
+
+img {
+    border-radius: 20px;
+    transition: transform 0.7s ease
+}     
+
+img:hover{
+    transform: scale(0.8);
+}
+
+.lol3 {
+    background: none;
+    width: 250px;
+}
+
+.toninhu {
+    position: relative;
+    display: inline-block;
+}
+
+
+.capi2 {
+    position:fixed;
+    background-color: blue;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+
+.capi2:hover {
+    opacity: 1;
+    transform: scale(1.1);
+
+}
+
+h2{
+    transition: transform 0.7s ease
+    
+}
+
+h2:hover{
+    transform: scale(1.1);
+}
+
+
+* {
+  box-sizing: border-box;
+  word-wrap: break-word; 
+  max-width: 100%;
+}
+
+.capi3 {
+  position: fixed;  
+  bottom: 20px;    
+  left: 20px;       
+  background-color: #2233cc;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 9999999999px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  z-index: 9999;    
+}
+
+.capi3:hover {
+  background-color: #112299;
+  transform: scale(1.1);
+  transition: 0.9s;
+}
+
+
+
+
+
+

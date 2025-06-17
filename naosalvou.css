@@ -1,0 +1,41 @@
+body {
+    text-align:center;
+    background-image: url('../IMAGENS/9k.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    
+    border-radius: 20px;
+
+}
+
+.malvado2 {
+    padding: 40px;
+    text-align: center;
+}
+
+.botao-link {
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    color: white;
+    background-color: crimson; /* ou qualquer cor que combine */
+    font-weight: bold;
+    margin: 10px 0;
+    opacity: 0.5;
+    transition: opacity 0.9s ease, transform 0.8s ease;
+}
+
+.botao-link:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+

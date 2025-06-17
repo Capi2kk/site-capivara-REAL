@@ -1,0 +1,39 @@
+body {
+    text-align:center;
+    background-image: url('../IMAGENS/9k.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    
+    border-radius: 20px;
+
+}
+
+.malvado2 {
+    padding: 40px;
+    text-align: center;
+}
+
+.botao-link {
+    display: inline-block;
+    background-color: rgb(55, 0, 255);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 999px;
+    font-weight: bold;
+    text-decoration: none;
+    opacity: 0.5;
+    transition: 0.7s;
+    font-size: 18px;
+}
+
+.botao-link:hover {
+    opacity: 1;
+}
+
